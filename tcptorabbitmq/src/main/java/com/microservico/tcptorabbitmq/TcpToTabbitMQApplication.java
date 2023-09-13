@@ -32,7 +32,7 @@ public class TcpToTabbitMQApplication {
 			}
 			
 		} catch(IOException e) {
-
+			log.info("TCP Server don't Started on port: " + PORT);
 		}
 
 	}
